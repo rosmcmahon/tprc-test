@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Language and Environment */
+    "target": "ES2022",
+    "lib": [ "DOM", "ES2022" ],
+    // "moduleDetection": "auto", 
+    "noEmit": true,
+
+    /* Modules */
+    "module": "ES2022",
+    "moduleResolution": "Node",
+    // "baseUrl": "./",
+    "esModuleInterop": true,
+    // "preserveSymlinks": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true
+  },
+  // "include": ["."],
+  // "exclude": ["node_modules"],
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node",
+    "transpileOnly": true
+  },
+}
